@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 14.5px;
+    padding: 2%;
+    margin: 1%;
+    
+    /* line-height: 100%; */
+    /* word-spacing: 3px; */
+}
+
+:root {
+     
+    --black:rgb(0,0,0);    
+    --white:rgb(248, 248, 248);
+    --grey:rgb(177, 170, 170); 
+
+}
+
+.header_section{
+    display: flex;
+    justify-content:
+    space-between;
+    /* margin-left: -23%; */
+    margin-top: -2%;
+    align-items: center;
+    
+
+}
+
+
+
+img {
+    
+    width: 100px;
+    height: 100px;
+    margin-top: -0.2%;
+    
+    
+
+}
+
+.uni-name {
+    
+    margin-right: 60%;
+    /* margin-left: -45%; */
+
+    
+
+}
+
+.main-container{
+
+    border: 2px solid;
+    /* margin: 10px; */
+
+}
+
+
+
+.courses_info{
+    padding: 5px;
+    line-height: 130%;
+}
+
+.headings{
+    color: var(--white);
+    background: var(--black);
+    font-size: medium;
+    padding: 5px;
+}
+
+.heading2 {
+    font-size: medium;
+    background: var(--grey);
+}
+
+.courses{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.bold_course{
+    font-weight: bold;
+}
+
+
+.description{
+    padding: 5px;
+}
+
+table {
+    /* border: 1px solid ; */
+    width: 100%;
+    line-height: 160%;
+    word-spacing: 1px;
+    border-collapse: collapse;
+
+
+  }
+
+table,th,tr,td{
+
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+
+
+.table-section{
+    margin:0px 4px 4px 4px;
+
+}
+
+td{
+    text-align: center;
+}
+
+.table .table-body{
+    line-height: 5px;
+    padding: 2px;
+
+    border-left: 5px solid;
+    border-right: 5px solid;
+
+    
+
+}
+
+
+#footer{
+    font-weight: bold;
+}
+
+/* .footer .total-hours td{
+    margin-left: -100px;
+} */
+
+.left{
+    /* display: table-cell; */
+    float: left;
+    width: 50%;
+}
+
+.right{
+    /* display: table-cell; */
+    float: right;
+    width: 50%;
+    /* margin-right: 10%; */
+}
+
+ /* .mapping {
+    width: 100%;
+} */
+
+.italic{
+    font-style: italic;
+}
+
+
+
+/* .assesment{
+    width: 100%;
+}  */
+
+
+.sub-heading{
+    margin-left: 8px;
+    /* text-indent: 8px; */
+}
+
+.inner-help p{
+    margin-left: 3%;
+    /* text-indent: 8px; */
+}
+
+
